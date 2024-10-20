@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim</title>
+    <link rel="icon" type="image/x-icon" href="/resimler/PC_İCON_3.png">
+    <style>
+        body{
+            background-color:#99B4BF;
+        }
+        
+        .formDiv{
+            border-radius: 25px;
+            width: 600px;
+            height: 500px;
+            background-color:#253C59;
+            color: #fff;
+        }
+        .city-links {
+             
+             display: flex;
+             justify-content: space-around;
+             background-color: #253C59;
+             width: 40;
+             height: 40;
+             padding: 45px;
+             margin-bottom: 50px;
+             border-radius: 30px;
+            
+            
+         }
+         
+         .city-links a {
+         
+             margin: 0 10px;
+             text-decoration: none;
+             color: #fff;
+             font-size:27px;
+            
+             background-color:#253C59;
+             width: 30;
+             height: 20;   
+         }
+        
+    </style>
+</head>
+<body> 
+    <div class="city-links">
+        <a href="anasayfa.html">Ana Sayfa</a>
+        <a href="hakkımda.html">Hakkımda</a>
+        <a href="projeler.html" >Projeler</a>
+        <a href="anket.html" >Anket</a>
+        <a href="iletişim.html" >İletişim</a>
+    </div>
+    <br><br><br><br><br><br><br><br>
+    <center>
+        <div class="formDiv">
+        <form action=""><!--php kodlu kaynak lazım-->
+            <br>
+            <center><h1><strong>
+                <i>İLETİŞİM FORMU</i></strong>
+            </h1></center>
+            <hr>
+            
+            <table>
+                <tr><td>Adınız:</td>
+                    <td><input type="text"></td></tr>
+    
+                <tr><td>Soyadınız:</td>
+                    <td><input type="text"></td></tr>
+    
+                <tr><td>Mail Adresiniz:</td>
+                    <td><input type="email"></td></tr>
+    
+                <tr><td rowspan="4">Cinsiyet:</td></tr>
+                    <tr><td><input type="radio" name="cinsiyetRadio">Kadın</td></tr>
+                    <tr><td><input type="radio" name="cinsiyetRadio">Erkek</td></tr>
+                    <tr><td><input type="radio" name="cinsiyetRadio">Belirtmek istemiyorum</td></tr>
+    
+                    <tr><td>Konu:</td>
+                        <td><textarea id="w3review" name="w3review" rows="2" cols="50" ></textarea></td></tr>
+                        <tr>
+                        <td>İçerik:</td>
+                        <td><textarea id="w3review" name="w3review" rows="7" cols="50" ></textarea></td></tr>
+            </table>
+                        <input type="submit" value="Gönder" style="margin-right: 50px;" style="margin-left: 10px;">
+                        <input type="reset" value="Temizle">
+        </form></div></center>
+        <br><br><br>
+        
+        <center><table>
+            <tr>
+                <td><img src="resimler/email.png" width="100px" height="100px" style="margin-right: 15px;"></td>
+                <td><img src="resimler/github.png" width="100px" height="100px" style="margin-right: 15px;"></td>
+                <td><img src="resimler/linkedin.png" width="100px" height="100px" style="margin-right: 15px;"></td>
+                <td><img src="resimler/instagram.png" width="100px" height="100px"></td>
+            </tr>
+        </table></center>
+
+   
+
+
+</body>
+</html>
